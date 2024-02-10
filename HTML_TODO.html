@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS_TODO.css">
+    <title>TO-DO App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>TO-DO List</h1>
+        <div id="app">
+            <!-- Correct the class name to match JavaScript -->
+            <form class="todo-form">
+                <input type="text" class="todo-input" id="taskInput" placeholder="Add a new task">
+                <button class="add-btn" onclick="addTask()">Add Task</button>
+            </form>
+            <div class="todo-container">
+                <ul class="todo-list" id="taskList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="jS_TODO.js"></script>
+</body>
+</html>
